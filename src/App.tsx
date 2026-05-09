@@ -97,7 +97,7 @@ export default function App() {
         duration: 1,
         ease: 'power3.out',
       }, '-=0.8');
-    }, 4500);
+    }, 6500);
 
     // Scroll Reveal for sections
     gsap.utils.toArray('.reveal').forEach((elem: any) => {
@@ -251,20 +251,20 @@ export default function App() {
       </AnimatePresence>
 
       {/* Hero Section */}
-      <section id="início" className="relative min-h-screen flex items-start pt-32 md:pt-44 pb-20 md:pb-32 px-4 md:px-10 overflow-hidden bg-dark">
+      <section id="início" className="relative min-h-screen flex items-start pt-24 md:pt-28 pb-20 md:pb-32 px-4 md:px-10 overflow-hidden bg-dark">
         {/* Hero Background Image (Watermark Effect - BMW GS 1300 2026) */}
         <div className="absolute inset-0 z-0 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-dark via-dark/95 to-transparent z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-dark via-dark/90 to-transparent z-10" />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark z-10" />
           {/* Simulated Cinematic Light Streak */}
           <div className="absolute top-0 left-[-50%] w-[200%] h-full light-streak z-10 pointer-events-none opacity-40" />
           
           <motion.img 
             initial={{ scale: 1.1, opacity: 0 }}
-            animate={{ scale: 1, opacity: 0.25 }}
+            animate={{ scale: 1, opacity: 0.45 }}
             transition={{ duration: 2.5, ease: "easeOut" }}
             src="https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=2500"
-            className="w-full h-full object-cover grayscale brightness-50"
+            className="w-full h-full object-cover grayscale brightness-75"
             alt="BMW R 1300 GS 2026"
           />
         </div>
