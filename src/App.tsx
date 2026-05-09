@@ -251,7 +251,7 @@ export default function App() {
       </AnimatePresence>
 
       {/* Hero Section */}
-      <section id="início" className="relative h-[85vh] md:h-screen flex items-start pt-32 md:pt-40 px-4 md:px-10 overflow-hidden bg-dark">
+      <section id="início" className="relative min-h-screen flex items-start pt-32 md:pt-44 pb-20 md:pb-32 px-4 md:px-10 overflow-hidden bg-dark">
         {/* Hero Background Image (Watermark Effect - BMW GS 1300 2026) */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-dark via-dark/95 to-transparent z-10" />
