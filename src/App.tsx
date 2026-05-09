@@ -263,9 +263,9 @@ export default function App() {
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 0.45 }}
             transition={{ duration: 2.5, ease: "easeOut" }}
-            src="https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=2500"
-            className="w-full h-full object-cover grayscale brightness-75"
-            alt="BMW R 1300 GS 2026"
+            src="https://images.unsplash.com/photo-1597732481474-a94e9c0bbace?auto=format&fit=crop&q=80&w=2500"
+            className="w-full h-full object-cover grayscale brightness-90 relative z-0"
+            alt="BMW technical diagnostic scanner on motorcycle"
           />
         </div>
 
