@@ -97,7 +97,7 @@ export default function App() {
         duration: 1,
         ease: 'power3.out',
       }, '-=0.8');
-    }, 6500);
+    }, 7500);
 
     // Scroll Reveal for sections
     gsap.utils.toArray('.reveal').forEach((elem: any) => {
@@ -177,7 +177,7 @@ export default function App() {
               <motion.div 
                 initial={{ width: "0%" }}
                 animate={{ width: "100%" }}
-                transition={{ duration: 3.5, ease: "linear" }}
+                transition={{ duration: 7.5, ease: "linear" }}
                 onAnimationComplete={() => setIsLoading(false)}
                 className="h-full bg-primary shadow-[0_0_15px_rgba(255,102,0,1)]"
               />
@@ -263,9 +263,9 @@ export default function App() {
             initial={{ scale: 1.1, opacity: 0 }}
             animate={{ scale: 1, opacity: 0.45 }}
             transition={{ duration: 2.5, ease: "easeOut" }}
-            src="https://images.unsplash.com/photo-1597732481474-a94e9c0bbace?auto=format&fit=crop&q=80&w=2500"
-            className="w-full h-full object-cover grayscale brightness-90 relative z-0"
-            alt="BMW technical diagnostic scanner on motorcycle"
+            src="https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=2500"
+            className="w-full h-full object-cover grayscale brightness-75"
+            alt="BMW R 1300 GS 2026"
           />
         </div>
 
